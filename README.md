@@ -47,6 +47,19 @@ This project was inspired by https://github.com/SamLewis0602/obsidian-custom-js.
 
 - [ ] Code clean up
 - [ ] Auto-complete suggestions when choosing script folder option
+- [ ] Promise alternative to `requirejs`
+
+Would be nice to write something like this:
+
+```js
+let _ = await requirejs.promise('lodash');
+```
+
+instead of
+
+```js
+let _ = await new Promise((resolve, reject) => requirejs(['lodash'], resolve, reject));
+```
 
 ## How to use
 

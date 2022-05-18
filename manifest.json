@@ -1,0 +1,10 @@
+{
+	"id": "obsidian-requirejs",
+	"name": "RequireJS",
+	"version": "0.1.0",
+	"minAppVersion": "0.12.0",
+	"description": "This plugin makes it easy to write reusable JavaScript code using ReactJS.",
+	"author": "Charles Strahan <charles@cstrahan.com>",
+	"authorUrl": "https://github.com/cstrahan",
+	"isDesktopOnly": false
+}

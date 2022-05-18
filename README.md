@@ -26,7 +26,7 @@ define(['exports'], function(exports) {
 
 ```js
 const requirejs = window.requirejs;
-const myUtils = await new Promise((resolve, reject) => (['utils'], resolve, reject));
+const myUtils = await new Promise((resolve, reject) => requirejs(['utils'], resolve, reject));
 console.log(myUtils.add(myUtils.multiply(3, 4), 12));
 ```
 

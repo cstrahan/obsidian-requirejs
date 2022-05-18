@@ -8,7 +8,7 @@ From a [dataview](https://github.com/blacksmithgu/obsidian-dataview) `dataviewjs
 
 ```js
 const requirejs = window.requirejs;
-const lodash = await new Promise((resolve, reject) => (['lodash'], resolve, reject));
+const lodash = await new Promise((resolve, reject) => requirejs(['lodash'], resolve, reject));
 lodash.get(...) // now I can use lodash
 ```
 

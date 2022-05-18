@@ -111,7 +111,7 @@ class RequireJSSettingTab extends PluginSettingTab {
 
     containerEl.empty();
 
-    containerEl.createEl('h2', { text: 'Requirejs' });
+    containerEl.createEl('h2', { text: 'RequireJS' });
 
     new Setting(containerEl)
       .setName('Scripts Folder')

@@ -1,4 +1,4 @@
-# Obsidian Requirejs Plugin
+# Obsidian RequireJS Plugin
 
 This Obsidian (https://obsidian.md) plugin makes it easy to write reusable JavaScript code using [requirejs](https://requirejs.org/).
 
